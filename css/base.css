@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 480px;
+    margin: auto;
+}
+
+div {
+    border: .5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
