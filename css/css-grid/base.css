@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    align-content: center;
+    margin: auto;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 75px 150px 125px 125px 250px 250px 80px;
+}
+
+div {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
